@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use c-bounds-audit-framework in your security research, static analysis tooling, or binary audit pipelines, please cite it as below."
+authors:
+  - family-names: "Shunko"
+    given-names: "Serhii"
+    orcid: "https://orcid.org/0009-0004-7432-8419"
+title: "c-bounds-audit-framework: Automated Static Audit Framework for C/C++ Memory Bounds, Struct Overflows & Pointer Arithmetic"
+version: 1.0.0
+date-released: 2026-11-01
+url: "https://github.com/ccsimplyspolit/c-bounds-audit-framework"
+repository-code: "https://github.com/ccsimplyspolit/c-bounds-audit-framework"
+license: MIT
+keywords:
+  - "c-security"
+  - "cpp-security"
+  - "memory-safety"
+  - "pointer-arithmetic"
+  - "buffer-overflow"
+  - "static-analysis"
