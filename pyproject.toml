@@ -36,3 +36,6 @@ c-bounds-auditor = "cbounds.cli:main"
 Homepage = "https://github.com/ccsimplyspolit/c-bounds-audit-framework"
 Issues = "https://github.com/ccsimplyspolit/c-bounds-audit-framework/issues"
 Repository = "https://github.com/ccsimplyspolit/c-bounds-audit-framework.git"
+
+[tool.setuptools.packages.find]
+include = ["cbounds*"]
