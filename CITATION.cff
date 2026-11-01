@@ -1,19 +1,31 @@
 cff-version: 1.2.0
-message: "If you use c-bounds-audit-framework in your security research, static analysis tooling, or binary audit pipelines, please cite it as below."
-authors:
-  - family-names: "Shunko"
-    given-names: "Serhii"
-    orcid: "https://orcid.org/0009-0004-7432-8419"
 title: "c-bounds-audit-framework: Automated Static Audit Framework for C/C++ Memory Bounds, Struct Overflows & Pointer Arithmetic"
-version: 1.0.0
-date-released: 2026-11-01
-url: "https://github.com/ccsimplyspolit/c-bounds-audit-framework"
+message: "If you use c-bounds-audit-framework in your security research, static analysis tooling, or binary audit pipelines, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: Shunko
+    given-names: Serhii
+    orcid: "https://orcid.org/0009-0002-4183-0361"
+    email: cc.simply.spolit@gmail.com
 repository-code: "https://github.com/ccsimplyspolit/c-bounds-audit-framework"
+url: "https://ccsimplyspolit.github.io/"
 license: MIT
+version: 1.0.0
+date-released: "2026-11-01"
 keywords:
-  - "c-security"
-  - "cpp-security"
-  - "memory-safety"
-  - "pointer-arithmetic"
-  - "buffer-overflow"
-  - "static-analysis"
+  - c-security
+  - cpp-security
+  - memory-safety
+  - pointer-arithmetic
+  - buffer-overflow
+  - static-analysis
+  - sarif
+references:
+  - type: software
+    title: "protobuf-bounds-auditor: Static Security Analyzer for Protocol Buffers (.proto) Schemas"
+    authors:
+      - family-names: Shunko
+        given-names: Serhii
+        orcid: "https://orcid.org/0009-0002-4183-0361"
+    doi: 10.5281/zenodo.23641037
+    repository-code: "https://github.com/ccsimplyspolit/protobuf-bounds-auditor"
